@@ -14,7 +14,6 @@ function day1(arr) {
 	let array = arr;
 	// divide by 3 round down and subtract 2
 	array = array.map((num) => Math.floor((parseInt(num, 10))/3) - 2);
-	console.log(array);
 	console.log (array.reduce((num, sum) => num + sum));
 }
 
